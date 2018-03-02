@@ -1,7 +1,7 @@
 const expect = require("chai").expect;
 const program = require("../src/exercise4");
 
-describe(`${program.title}`, function() {
+describe.only(`${program.title}`, function() {
   it("Function countSequence should return 0 if the sequence is empty", function() {
     const sequence = "";
     const input = "abc11x11x11";

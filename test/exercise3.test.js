@@ -1,7 +1,7 @@
 const expect = require("chai").expect;
 const program = require("../src/exercise3");
 
-describe(`${program.title}`, function() {
+describe.only(`${program.title}`, function() {
   it("Function meeteek should not suggest people if sex partner is not approved in a bidirectionnal way", function() {
     const input = [
       {
